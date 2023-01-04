@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- remote names -->
-  <remote name="terminatorj" fetch="https://github.com/Terminator-J/" />
-  <remote name="tjgitlab" fetch="https://gitlab.com/Terminator-J/" />
-  <remote name="lineage" fetch="https://github.com/LineageOS/" />
-  <remote name="gitlab" fetch="https://gitlab.com/" />
-  <remote name="abhizala" fetch="https://github.com/" />
-  <remote name="ezio84" fetch="https://github.com/" />
-  <remote name="luk" fetch="https://github.com/luk1337/" />
-  <remote name="evox" fetch="https://github.com/Evolution-X-Devices/" />
-  <remote name="mcdachpappe" fetch="https://github.com/mcdachpappe/" />
   <remote name="sn" fetch="https://github.com/snnbyyds/" />
 
   <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="sn" revision="thirteen" />
