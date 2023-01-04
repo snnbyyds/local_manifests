@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remote names -->
+  <remote name="terminatorj" fetch="https://github.com/Terminator-J/" />
+  <remote name="tjgitlab" fetch="https://gitlab.com/Terminator-J/" />
+  <remote name="lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote name="abhizala" fetch="https://github.com/" />
+  <remote name="ezio84" fetch="https://github.com/" />
+  <remote name="luk" fetch="https://github.com/luk1337/" />
+  <remote name="evox" fetch="https://github.com/Evolution-X-Devices/" />
+  <remote name="mcdachpappe" fetch="https://github.com/mcdachpappe/" />
+  <remote name="sn" fetch="https://github.com/snnbyyds/" />
+
+  <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="sn" revision="thirteen" />
+  <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="sn" revision="thirteen-plus" />
+  <project name="hardware_oneplus" path="hardware/oneplus" remote="sn" revision="thirteen-plus" />
+  <project name="kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="sn" revision="thirteen" />
+  <project name="system_dump-fajita" path="system_dump" remote="sn" revision="thirteen" />
+  <!-- audio -->
+  <remove-project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_sdm845_audio" revision="thirteen" />
+  <project name="hardware_qcom-caf_sdm845_audio" path="hardware/qcom-caf/sdm845/audio" remote="sn" revision="thirteen" />
+  <!-- Clang 16 version 16.0.2 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="gitlab" revision="13.0"/>
+</manifest>
