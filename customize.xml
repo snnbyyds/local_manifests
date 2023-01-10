@@ -11,4 +11,6 @@
   <project name="system_dump-fajita" path="system_dump" remote="sn" revision="thirteen" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="gitlab" revision="13.0" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  <remove-project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="arrow-13.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio-1" groups="qcom,qcom_audio" remote="sn" revision="arrow-13.0-caf-sdm845" />
 </manifest>
