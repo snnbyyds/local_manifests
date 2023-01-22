@@ -4,10 +4,10 @@
   <remote name="sn" fetch="https://github.com/snnbyyds/" />
   
   <project name="fun" path="fun" remote="sn" revision="main" />
-  <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="sn" revision="thirteen" />
-  <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="sn" revision="thirteen-plus" />
+  <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="sn" revision="dev" />
+  <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="sn" revision="dev" />
   <project name="hardware_oneplus" path="hardware/oneplus" remote="sn" revision="thirteen-plus" />
-  <project name="kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="sn" revision="thirteen" clone-depth="1" />
+  <project name="android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="sn" revision="lineage-20" clone-depth="1" />
   <project name="system_dump-fajita" path="system_dump" remote="sn" revision="thirteen" clone-depth="1" />
   <!-- audio -->
   <remove-project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_sdm845_audio" revision="thirteen" />
