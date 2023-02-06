@@ -2,16 +2,19 @@
 <manifest>
   <!-- remote names -->
   <remote name="sn" fetch="https://github.com/snnbyyds/" />
-  
-  <project name="fun" path="fun" remote="sn" revision="main" />
+
   <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="sn" revision="thirteen" />
   <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="sn" revision="thirteen-plus" />
   <project name="hardware_oneplus" path="hardware/oneplus" remote="sn" revision="thirteen-plus" />
   <project name="kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="sn" revision="thirteen" clone-depth="1" />
-  <project name="system_dump-fajita" path="system_dump" remote="sn" revision="thirteen" clone-depth="1" />
+
+  <project name="vendor_oneplus_fajita" path="vendor/oneplus/fajita" remote="sn" revision="thirteen" clone-depth="1" />
+  <project name="vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" remote="sn" revision="thirteen" clone-depth="1" />
+  
   <!-- audio -->
   <remove-project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_sdm845_audio" revision="thirteen" />
   <project name="hardware_qcom-caf_sdm845_audio" path="hardware/qcom-caf/sdm845/audio" remote="sn" revision="thirteen" />
+  
   <remove-project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" revision="thirteen" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="qcom" remote="sn" revision="lineage-20.0-caf-sdm845" />
   <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="gitlab" revision="13.0" clone-depth="1" />
