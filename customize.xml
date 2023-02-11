@@ -17,6 +17,6 @@
   
   <remove-project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" revision="thirteen" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="qcom" remote="sn" revision="lineage-20.0-caf-sdm845" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="gitlab" revision="13.0" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="snnbyyds/clang-9592507" remote="gitlab" revision="main" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
