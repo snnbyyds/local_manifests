@@ -14,5 +14,5 @@
   <project name="vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="snnbyyds/clang-r487747" remote="gitlab" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
 </manifest>
