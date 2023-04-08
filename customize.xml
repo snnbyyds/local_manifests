@@ -15,4 +15,6 @@
 
   <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="snnbyyds/clang-r487747" remote="gitlab" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+  
+  <project name="hardware_xiaomi" path="hardware/xiaomi" remote="pixel" revision="thirteen" />
 </manifest>
