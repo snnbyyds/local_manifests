@@ -7,7 +7,7 @@
   <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="sn" revision="thirteen" />
   <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="pixel-devices" revision="thirteen-plus-wip" clone-depth="1" />
   <project name="hardware_oneplus" path="hardware/oneplus" remote="pixel" revision="thirteen-plus" />
-  <project name="kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="pixel-devices" revision="thirteen" clone-depth="1" />
+  <project name="kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="pixel-devices" revision="thirteen-wip" clone-depth="1" />
 
   <project name="vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" remote="sn" revision="thirteen" clone-depth="1" />
   <project name="vendor_oneplus_fajita" path="vendor/oneplus/fajita" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
