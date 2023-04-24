@@ -2,7 +2,6 @@
 <manifest>
   <!-- remote names -->
   <remote name="sn" fetch="https://github.com/snnbyyds/" />
-  <remote name="mupp" fetch="https://github.com/TheMuppets/" />
 
   <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="pixel-devices" revision="thirteen-plus" />
   <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="sn" revision="thirteen" />
@@ -12,13 +11,10 @@
 
   <project name="vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" remote="sn" revision="thirteen" clone-depth="1" />
   <project name="vendor_oneplus_fajita" path="vendor/oneplus/fajita" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
-  <project name="proprietary_vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" remote="mupp" revision="lineage-20" clone-depth="1" />
+  <project name="vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="snnbyyds/clang-r487747" remote="gitlab" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="snnbyyds/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
   
-  <remove-project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom-caf_sdm845_media" revision="thirteen" />
-  <project name="hardware_qcom-caf_sdm845_media" path="hardware/qcom-caf/sdm845/media" remote="sn" revision="thirteen" />
-
   <project name="hardware_xiaomi" path="hardware/xiaomi" remote="pixel" revision="thirteen" />
 </manifest>
