@@ -11,7 +11,7 @@
 
   <project name="proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" remote="sn" revision="thirteen" clone-depth="1" />
   <project name="vendor_oneplus_fajita" path="vendor/oneplus/fajita" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
-  <project name="vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
+  <project name="vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" remote="pixel-devices-blobs" revision="thirteen-wip" clone-depth="1" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="snnbyyds/clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="snnbyyds/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
