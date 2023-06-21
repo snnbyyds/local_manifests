@@ -6,7 +6,9 @@
   <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="pixel-devices" revision="thirteen-plus" />
   <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="sn" revision="thirteen" />
   <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="pixel-devices" revision="thirteen-plus-wip" clone-depth="1" />
+  
   <project name="hardware_oneplus" path="hardware/oneplus" remote="pixel" revision="thirteen-plus" />
+  
   <project name="kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="pixel-devices" revision="thirteen" clone-depth="1" />
 
   <project name="proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" remote="sn" revision="thirteen" clone-depth="1" />
@@ -15,6 +17,4 @@
 
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="snnbyyds/clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="snnbyyds/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-  
-  <project name="hardware_xiaomi" path="hardware/xiaomi" remote="pixel" revision="thirteen" />
 </manifest>
