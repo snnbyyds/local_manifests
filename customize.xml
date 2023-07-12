@@ -4,7 +4,7 @@
   <remote name="sn" fetch="https://github.com/snnbyyds/" />
 
   <project name="device_oneplus_fajita" path="device/oneplus/fajita" remote="pixel-devices" revision="thirteen-plus" />
-  <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="sn" revision="thirteen" />
+  <project name="device_oneplus_enchilada" path="device/oneplus/enchilada" remote="pixel-devices" revision="thirteen-plus" />
   <project name="device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="pixel-devices" revision="thirteen" clone-depth="1" />
   
   <project name="hardware_oneplus" path="hardware/oneplus" remote="pixel" revision="thirteen-plus" />
@@ -14,9 +14,6 @@
   <project name="proprietary_vendor_oneplus_enchilada" path="vendor/oneplus/enchilada" remote="sn" revision="thirteen" clone-depth="1" />
   <project name="vendor_oneplus_fajita" path="vendor/oneplus/fajita" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
   <project name="vendor_oneplus_sdm845-common" path="vendor/oneplus/sdm845-common" remote="pixel-devices-blobs" revision="thirteen" clone-depth="1" />
-
-  <remove-project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" revision="thirteen" />
-  <project name="hardware_qcom-caf_sdm845_display" path="hardware/qcom-caf/sdm845/display" remote="sn" revision="thirteen" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="snnbyyds/clang-r487747c" remote="gitlab" revision="13.0" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="snnbyyds/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
